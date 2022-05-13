@@ -16,11 +16,13 @@ function App() {
       <Topbar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <img src={self} className="self" />
+      </header>
+      <img src={self} className="self" />
+      <div className="IntroText">
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
-
-        <div id='Social-icons'>
+      </div>
+        <div id="Social-icons">
         <a href="https://www.linkedin.com/in/enrico-ng/" target="_blank">
         <FontAwesomeIcon icon={faLinkedin} size="2x"/>
         </a>
@@ -29,7 +31,7 @@ function App() {
         </a>
         </div>
         
-      </header>
+      
     </div>
   );
 }
