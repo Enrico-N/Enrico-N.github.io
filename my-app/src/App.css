@@ -30,6 +30,8 @@
   height: 20%;
   width: 20%;
   justify-self: right;
+  justify-items: right;
+  justify-content: right;
 }
 
 .IntroText{
