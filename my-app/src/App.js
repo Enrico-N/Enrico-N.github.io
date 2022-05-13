@@ -3,7 +3,7 @@ import './App.css';
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import  Topbar  from './Components/Topbar';
 
 
 
@@ -12,6 +12,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 function App() {
   return (
     <div className="App">
+      <Topbar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello, I'm Enrico</h1>
