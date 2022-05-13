@@ -4,6 +4,7 @@ import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import  Topbar  from './Components/Topbar';
+import self from './self.png';
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Topbar/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <img src={self} className="self" />
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
 

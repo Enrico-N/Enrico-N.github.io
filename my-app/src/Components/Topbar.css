@@ -2,7 +2,7 @@
     align-content: flex-start;
 }
 .Topbar{
-    display: inline-block;
+    display: inline;
     height: 100px;
 }
 
