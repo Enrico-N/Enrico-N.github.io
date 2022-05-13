@@ -10,7 +10,7 @@ function Topbar() {
      <div className='Topbar'>
         <div className="HomeIcon">
             <a href="https://enrico-n.github.io/">
-            <FontAwesomeIcon icon="fas fa-house" />
+            <FontAwesomeIcon icon="fas fa-house" size="2x" />
             </a>
         </div>
         <div className = "Directory">

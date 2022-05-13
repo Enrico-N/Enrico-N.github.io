@@ -7,5 +7,9 @@
 }
 
 .HomeIcon{
-    align-self: auto;
+    justify-content: left;
+}
+
+.Directory{
+    justify-content: right;
 }
