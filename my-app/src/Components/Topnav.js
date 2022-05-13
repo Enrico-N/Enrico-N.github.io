@@ -11,13 +11,18 @@ function Topnav() {
      <div className='Topnav'>
         <div className="HomeIcon">
             <a href="https://enrico-n.github.io/">
-            <FontAwesomeIcon icon="fas fa-house" size="2x" />
+            <FontAwesomeIcon icon="fas fa-house" size="2x" alt="logo" />
             </a>
         </div>
         <div className = "Directory">
-            <a href = "" > About </a>
-            <a href = "" > Projects </a>
-            <a href = "" > Contact </a>
+        <nav>
+            <ul>
+            <li><a href = "#" id="About" > About </a></li>
+            <li><a href = "#" id="Projects"> Projects </a></li>
+            <li><a href = "#" id="Blog"> Blog </a></li>
+            <li><a href = "#" id="Contact"> Contact </a></li>
+            </ul>
+        </nav>
         </div>
         
     </div>

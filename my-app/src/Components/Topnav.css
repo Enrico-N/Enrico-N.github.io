@@ -4,13 +4,32 @@
 }
 .Topnav{
     height: 100px;
-    color: gray
+    color: gray;
 }
 
-.HomeIcon{
-    justify-content: left;
+.Topnav::after{
+    content: '';
+    display: table;
+    clear: both;
+    content: '';
+
 }
 
-.Directory{
-    justify-content: right;
+.HomeIcon {
+    float: left;
+}
+
+.Directory {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav li{
+    display: inline-block;
 }
