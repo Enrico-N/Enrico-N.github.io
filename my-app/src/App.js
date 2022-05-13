@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import self from './self.png';
-import Topnav from './Components/Topnav';
+import Navbar from './Components/Navbar';
 
 /**<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -15,7 +15,7 @@ import Topnav from './Components/Topnav';
 function App() {
   return (
     <div className="App">
-      <Topnav/>
+      <Navbar/>
       <img src={self} className="self" />
 
       <div className="IntroText">
