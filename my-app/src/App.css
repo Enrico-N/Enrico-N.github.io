@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -24,8 +26,24 @@
   color: white;
 }
 
-.App-link {
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+
+
+#social-icons {
   color: #61dafb;
+  margin: 10px;
+
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 @keyframes App-logo-spin {
