@@ -1,11 +1,10 @@
 .root{
     display: flex;  
+    color:aqua;
 }
 .Topbar{
-    display: inline;
     height: 100px;
     color: gray
-    
 }
 
 .HomeIcon{
