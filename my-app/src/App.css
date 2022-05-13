@@ -51,8 +51,9 @@ h2{
 #social-icons {
   color: #61dafb;
   margin: 10px;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  bottom: 0;
+  
 
 }
 

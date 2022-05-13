@@ -6,9 +6,9 @@ import React,{useState} from 'react';
 library.add(fas)
 
 
-function Topnav() {
+function Navbar() {
     return (
-     <div className = "Topnav">
+     <div className = "Navbar">
         <div className = "container">
 
         
@@ -33,4 +33,4 @@ function Topnav() {
     
 }
 
-export default Topnav;
+export default Navbar;
