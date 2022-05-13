@@ -6,9 +6,9 @@ import React,{useState} from 'react';
 library.add(fas)
 
 
-function Topbar() {
+function Topnav() {
     return (
-     <div className='Topbar'>
+     <div className='Topnav'>
         <div className="HomeIcon">
             <a href="https://enrico-n.github.io/">
             <FontAwesomeIcon icon="fas fa-house" size="2x" />
@@ -25,4 +25,4 @@ function Topbar() {
     
 }
 
-export default Topbar;
+export default Topnav;

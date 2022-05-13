@@ -3,8 +3,8 @@ import './App.css';
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import  Topbar  from './Components/Topbar';
 import self from './self.png';
+import Topnav from './Components/Topnav';
 
 
 
@@ -13,7 +13,7 @@ import self from './self.png';
 function App() {
   return (
     <div className="App">
-      <Topbar/>
+      <Topnav/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
