@@ -18,7 +18,6 @@ function App() {
       <div className="IntroText">
         <h1>Hello, I'm Enrico</h1>
         <h2>Software Developer</h2>
-      </div>
 
       <div id="Social-icons">
         <a href="https://www.linkedin.com/in/enrico-ng/" target="_blank" rel="noreferrer">
@@ -28,6 +27,9 @@ function App() {
           <FontAwesomeIcon icon={faGithub} size= "2x"/>
         </a>
       </div>
+      </div>
+
+      
         
     
     </div>
