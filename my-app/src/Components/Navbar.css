@@ -4,6 +4,8 @@
     background-color: #333;
     top: 0; 
     width: 100%; 
+    max-height: 73px;
+    clear: both;
 }
 
 .container {
@@ -19,7 +21,8 @@
 }
 
 .Navbar-menu {
-    display:grid;
+    
+    position: relative;
     float: right;
     grid-template-columns: repeat(5, auto);
     grid-gap: 10px;
@@ -33,6 +36,7 @@
 nav ul {
     margin: 0;
     padding: 5px;
+    min-width: fit-content;
 }
 
 nav li{
@@ -51,7 +55,15 @@ nav li{
   }
 
 .Navbar a:hover {
-    background: whitesmoke;
+    background:white;
     color: black;
     border-radius: 5px;
+    font-weight: 500;
+}
+
+.Toggle-button{
+    position:absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
 }

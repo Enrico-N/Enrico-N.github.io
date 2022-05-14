@@ -9,12 +9,18 @@ library.add(fas)
 
 function Navbar() {
     return (
-     <div class = "Navbar">
-        <div class = "container">
+     <div className = "Navbar">
+        <div className= "container">
 
-        
+            
             <a href = "https://enrico-n.github.io/">
             <FontAwesomeIcon icon = "fas fa-house" size = "2x" alt = "logo" className = "Navbar-home"/>
+            </a>
+            
+            <a href = "#" className="Toggle-button">
+                <span className="bar"></span>
+                <span className="bar"></span>
+                <span className="bar"></span>
             </a>
         
 
@@ -22,7 +28,6 @@ function Navbar() {
                 <ul>
                     <li><a href = "https://enrico-n.github.io/" id = "About" > Abouts </a></li>
                     <li><a href = "https://enrico-n.github.io/" id = "Projects"> Projects </a></li>
-                    <li><a href = "https://enrico-n.github.io/" id = "Blog"> Blog </a></li>
                     <li><a href = "https://enrico-n.github.io/" id = "Contact"> Contact </a></li>
                 </ul>
             </nav>
