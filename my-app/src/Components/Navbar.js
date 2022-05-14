@@ -26,7 +26,7 @@ function Navbar() {
 
             <nav className='Navbar-menu'>
                 <ul>
-                    <li><a href = "https://enrico-n.github.io/" id = "About" > Abouts </a></li>
+                    <li><a href = "https://enrico-n.github.io/" id = "About" > About </a></li>
                     <li><a href = "https://enrico-n.github.io/" id = "Projects"> Projects </a></li>
                     <li><a href = "https://enrico-n.github.io/" id = "Contact"> Contact </a></li>
                 </ul>
