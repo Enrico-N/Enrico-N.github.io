@@ -4,7 +4,7 @@ import React from 'react';
 const Projects = () => {
     return(
     <div className='projects' id = 'projects'>
-        <div id = "page_3">
+        <div className= "page_3">
             <h2>Projects</h2>
                 <p> 
                     3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique sagittis congue. Phasellus malesuada odio non metus tempus pretium. Morbi pretium et ligula at feugiat. Nulla facilisi. Donec nulla quam, consectetur non ante suscipit, egestas luctus arcu. Ut tincidunt turpis finibus est iaculis, id porta lectus molestie. Vivamus accumsan aliquam orci a elementum. Cras varius commodo aliquet. Etiam ipsum elit, convallis vel efficitur et, molestie eget ex. Aliquam iaculis dolor erat. Proin tempor velit sit amet cursus venenatis. Proin non rhoncus massa. Nullam porta turpis in nisl egestas maximus sed in nulla. Duis consequat efficitur ex, ut malesuada erat.
