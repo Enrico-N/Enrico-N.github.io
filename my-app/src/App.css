@@ -21,24 +21,33 @@
   color: white;
 }**/
 
+@media screen and (max-width: 768px){
+  .self{
+    display: none;
+  }
+}
+
+
 .right-column{
   float: right;
   width: 50%;
   clear: both;
+  height: 900px;
   
 
-  
 }
 
 .self {
   border-radius: 10px;
   border: .001em solid black; 
-  margin-top: 10%;
+  margin: 10% 25% 10% 25%;
+  
 }
 
 .left-column{
   float: left;
   width: 50%;
+  height: 900px;
 }
 
 
@@ -60,19 +69,24 @@ h2{
   margin-block-start: 0;
 }
 
-#page_2{
+#page_1{
   clear: both;
   padding: 0% 5%;
+  height: 900px;
 }
+
+
 
 #page_3{
   clear: both;
   padding: 0% 5%;
+  height: 900px;
 }
 
 #page_4{
   clear: both;
   padding: 0% 5%;
+  height: 900px;
 }
 
 /**#Social-icons {
@@ -84,6 +98,10 @@ h2{
   padding-top: 20%;
   margin-right: 10px;
 }**/
+
+footer{
+  text-align: center;
+}
 
 
 
@@ -99,3 +117,4 @@ a, a:visited, a:hover, a:active {
     transform: rotate(360deg);
   }
 }**/
+
