@@ -1,4 +1,5 @@
 import './App.css';
+import { ParallaxProvider } from 'react-scroll-parallax'
 import Navbar from './Components/Navbar';
 import Home from './Components/Home';
 import About from './Components/About';
@@ -12,11 +13,14 @@ function App() {
   return (
     <div className="App">
       <Navbar/> 
-      <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <ParallaxProvider>
+        <Home/>
+        <About/>
+        <Projects/>
+        <Contact/>
+        <Footer/>
+      </ParallaxProvider>
+      
     </div>
     
   );

@@ -3,11 +3,16 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin,faGithub } from '@fortawesome/free-brands-svg-icons';
 import self from './Images/self.png';
+import { Parallax } from 'react-scroll-parallax';
+import Background from './Background';
+
 
 const Home = () => {
     return(
     <div className='home' id = 'home'>
-        <div className="page_1">
+    <Parallax speed={100}>
+        <div className = "page_1">
+            <Background />
             <div className = "right-column">
                 <img src={self} className="self" alt="img" />
             </div>
@@ -23,10 +28,10 @@ const Home = () => {
                 <a href="https://github.com/Enrico-N" target="_blank" rel="noreferrer" className="Social-icons">
                     <FontAwesomeIcon icon={faGithub} size= "2x"/>
                 </a>
-            
+                </div>
             </div>
         </div>
-      </div>
+    </Parallax>
     </div>
     )
 }
