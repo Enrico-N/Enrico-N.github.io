@@ -5,8 +5,8 @@ import NasaPhoto from './Images/NasaPhoto';
 const Background = () => {
     return (
     <div className = 'background'>
-    <Parallax translateY={-100} >
-        <NasaPhoto/> 
+    <Parallax translateY={-100}>
+        <NasaPhoto/>
     </Parallax>
     </div>
     );
