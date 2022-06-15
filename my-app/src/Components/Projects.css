@@ -1,7 +1,39 @@
-.page_3{
-    clear: both;
-    padding: 5% 5%;
-    height: 900px;
-    position: relative;
+.page_3 {
+  clear: both;
+  padding: 5% 5%;
+  height: 900px;
+  position: relative;
+  color: white;
 }
-  
+
+.scroll-container {
+  display: flex;
+  overflow-y: auto;
+}
+
+.scroll-container img {
+  margin-right: 15px;
+}
+
+.scroll-container img:hover {
+  background: white;
+  border-radius: 5px;
+  padding: 2px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
+
+.scroll-container::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background: whitesmoke;
+  border-radius: 100vw;
+}
+
+.scroll-container::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 100vw;
+}

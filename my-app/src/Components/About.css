@@ -1,27 +1,23 @@
-.page_2{
-    clear: both;
-    padding: 5% 5%;
-    height: 900px;
-    position: relative;
-    background-color: white;
+.page_2 {
+  clear: both;
+  padding: 5% 5%;
+  height: 900px;
+  position: relative;
+  background-color: white;
 }
-#tech_stack{
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    height: fit-content;
-    
-}
-
-#tech_logo{
-    width: 100px;
-    height: 100px;
+#tech_stack {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  height: fit-content;
 }
 
-
-.caption{
-    display:block;
-    
+#tech_logo {
+  width: 100px;
+  height: 100px;
 }
 
+.caption {
+  display: block;
+}

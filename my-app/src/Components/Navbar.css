@@ -1,55 +1,63 @@
-@media screen and (max-width: 768px){
-    .Navbar-menu{
-      display: none;
-    }
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+    width: 100%;
   }
 
-html{
-    scroll-behavior: smooth;
-}
-
-
-.Navbar {
+  .toggle-button {
     display: flex;
-    justify-content: space-between;
-    overflow: hidden;
-    position: fixed; 
-    background-color: #333;
-    align-items: center;
-    top: 0; 
-    margin: auto;
-    width: 100%; 
-    height: 55px;
-    clear: both;
-    padding: 0 1rem;
-    z-index: 999;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul {
+    width: 100;
+    flex-direction: column;
+  }
 }
 
-
-
-.Navbar-home {
-    display: block ;
-    float: left;
-    justify-self: start;
-    cursor: pointer;
-    
+html {
+  scroll-behavior: smooth;
 }
 
-.Navbar-home:hover{
-    background:black;
-    color: white;
-    border-radius: 5px;
-    padding: 5px;
-    transition: all 0.2s ease-out;
-    cursor: pointer;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: fixed;
+  background-color: #333;
+  align-items: center;
+  top: 0;
+  margin: auto;
+  width: 100%;
+  height: 55px;
+  clear: both;
+  padding: 0 1rem;
+  z-index: 999;
 }
 
+.navbar-home {
+  display: block;
+  float: left;
+  justify-self: start;
+  cursor: pointer;
+}
 
+.navbar-home:hover {
+  background: black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
 
-
-.Navbar-menu {
-    background-color: transparent;
-    /**display: grid;
+.navbar-menu {
+  background-color: transparent;
+  /**display: grid;
     float: right;
     list-style: none;
     justify-content: end;
@@ -58,65 +66,57 @@ html{
     transition: .3s;
     height: 55px;
     left: 0;**/
-    
-    
-}
- 
-
-.Navbar-menu.active{
-    width: 100%;
-    height: 90vh;
-    text-align: center;
-    
 }
 
-nav ul{
-    margin: 0;
-    padding: 0;
-    align-items: center;
+.navbar-menu.active {
+  width: 100%;
+  height: 90vh;
+  text-align: center;
 }
 
-nav li{
-    display: inline-block;
-    margin-right: 70px;
-    padding-top: 0.5rem 1rem;
-    text-decoration: none;
+nav ul {
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 
-
-
-.Navbar a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 8px 1px;
-    text-decoration: none;
-  }
-
-.Navbar a:hover {
-    background:white;
-    color: black;
-    border-radius: 5px;
-    font-weight: 400;
-    transition: all 0.2s ease-out;
-    cursor: pointer;
+nav li {
+  display: inline-block;
+  margin-right: 70px;
+  padding-top: 0.5rem 1rem;
+  text-decoration: none;
 }
 
-.Toggle-button{
-    right: 1rem;
-    display: block;
-    float: right;
-    cursor: pointer;
-    position: fixed;
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 8px 1px;
+  text-decoration: none;
 }
 
-.Toggle-button:hover {
-    background:black;
-    border-radius: 5px;
-    padding: 5px;
-    transition: all 0.2s ease-out;
-    cursor: pointer;
-
+.navbar a:hover {
+  background: white;
+  color: black;
+  border-radius: 5px;
+  font-weight: 400;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
 }
 
+.toggle-button {
+  right: 1rem;
+  display: block;
+  float: right;
+  cursor: pointer;
+  position: fixed;
+}
+
+.toggle-button:hover {
+  background: black;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
+}
