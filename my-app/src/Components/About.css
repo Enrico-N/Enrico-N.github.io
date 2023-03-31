@@ -1,23 +1,55 @@
-.page_2 {
+/* .page_2 {
   clear: both;
-  padding: 5% 5%;
   height: 900px;
   position: relative;
-  background-color: white;
-}
+} */
 #tech_stack {
   width: 20%;
   display: inline-block;
   text-align: center;
   vertical-align: top;
   height: fit-content;
+  font-weight: bold;
 }
 
 #tech_logo {
   width: 100px;
   height: 100px;
+  padding: 2% 2%;
 }
 
 .caption {
   display: block;
+  color: white;
+}
+
+div.transbox {
+  background-color: black;
+  opacity: 0.6;
+  padding: 5% 5%;
+}
+
+div.transbox p {
+  color: black;
+  font-weight: bold;
+}
+
+div.transbox2 {
+  background: rgba(49, 49, 49, 0.8);
+  padding: 2% 2%;
+  margin: 0% 2%;
+  border-radius: 10px;
+  color: white;
+}
+
+div.transbox2 caption {
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (width: 768px) {
+  #tech_stack {
+    width: 100px;
+    height: auto;
+  }
 }
