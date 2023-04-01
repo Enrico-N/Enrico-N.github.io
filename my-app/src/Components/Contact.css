@@ -4,3 +4,7 @@
   height: 900px;
   position: relative;
 }
+
+.transbox h2 {
+  color: white;
+}

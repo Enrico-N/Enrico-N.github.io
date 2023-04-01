@@ -23,22 +23,6 @@ const Navbar = () => {
         />
       </a>
 
-      <div className="toggle-button" onClick={handleClick}>
-        {click ? (
-          <FontAwesomeIcon
-            icon="fas fa-x"
-            size="2x"
-            style={{ color: "white" }}
-          />
-        ) : (
-          <FontAwesomeIcon
-            icon="fas fa-bars"
-            size="2x"
-            style={{ color: "white" }}
-          />
-        )}
-      </div>
-
       <nav className={click ? "navbar-menu.active" : "navbar-menu"}>
         <ul>
           <li>
@@ -61,6 +45,22 @@ const Navbar = () => {
           </li>
         </ul>
       </nav>
+
+      <div className="toggle-button" onClick={handleClick}>
+        {click ? (
+          <FontAwesomeIcon
+            icon="fas fa-x"
+            size="2x"
+            style={{ color: "white" }}
+          />
+        ) : (
+          <FontAwesomeIcon
+            icon="fas fa-bars"
+            size="2x"
+            style={{ color: "white" }}
+          />
+        )}
+      </div>
     </div>
   );
 };

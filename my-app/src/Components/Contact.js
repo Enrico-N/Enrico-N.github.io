@@ -5,8 +5,10 @@ const Contact = () => {
   return (
     <div className="contact" id="contact">
       <div className="page_4">
-        <h2>Contact</h2>
-        <p></p>
+        <div className="transbox">
+          <h2>Contact</h2>
+          <p></p>
+        </div>
       </div>
     </div>
   );

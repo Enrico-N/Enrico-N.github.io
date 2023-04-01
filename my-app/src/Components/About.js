@@ -16,27 +16,57 @@ const About = () => {
           <h2>Tech Stack</h2>
           <div className="container">
             <div id="tech_stack">
-              <img id="tech_logo" src={html_logo} alt="html-logo" />
+              <img
+                id="tech_logo"
+                src={html_logo}
+                alt="html-logo"
+                className="responsive-icon"
+              />
               <span className="caption">HTML</span>
             </div>
             <div id="tech_stack">
-              <img id="tech_logo" src={css_logo} alt="css-logo" />
+              <img
+                id="tech_logo"
+                src={css_logo}
+                alt="css-logo"
+                className="responsive-icon"
+              />
               <span className="caption">CSS</span>
             </div>
             <div id="tech_stack">
-              <img id="tech_logo" src={js_logo} alt="js-logo" />
+              <img
+                id="tech_logo"
+                src={js_logo}
+                alt="js-logo"
+                className="responsive-icon"
+              />
               <span className="caption">Javascript</span>
             </div>
             <div id="tech_stack">
-              <img id="tech_logo" src={react_logo} alt="react-logo" />
+              <img
+                id="tech_logo"
+                src={react_logo}
+                alt="react-logo"
+                className="responsive-icon"
+              />
               <span className="caption">React</span>
             </div>
             <div id="tech_stack">
-              <img id="tech_logo" src={py_logo} alt="py-logo" />
+              <img
+                id="tech_logo"
+                src={py_logo}
+                alt="py-logo"
+                className="responsive-icon"
+              />
               <span className="caption">Python</span>
             </div>
             <div id="tech_stack">
-              <img id="tech_logo" src={java_logo} alt="java-logo" />
+              <img
+                id="tech_logo"
+                src={java_logo}
+                alt="java-logo"
+                className="responsive-icon"
+              />
               <span className="caption">Java</span>
             </div>
             <div id="tech_stack">
