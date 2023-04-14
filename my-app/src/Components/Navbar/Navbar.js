@@ -1,12 +1,13 @@
+import "./Navbar.css";
+import React, { useState } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fas } from "@fortawesome/free-solid-svg-icons";
-import React, { useState } from "react";
-import "./Navbar.css";
+import { socialMediaLinks } from "../../Portfolio";
 
 library.add(fas);
 
-const Navbar = () => {
+export default function Navbar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -14,7 +15,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar">
-      <a href="https://enrico-n.github.io/">
+      <a href={socialMediaLinks.portfolio}>
         <FontAwesomeIcon
           icon="fas fa-house"
           size="2x"
@@ -63,6 +64,4 @@ const Navbar = () => {
       </div>
     </div>
   );
-};
-
-export default Navbar;
+}

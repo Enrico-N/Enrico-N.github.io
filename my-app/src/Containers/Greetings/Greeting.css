@@ -1,0 +1,49 @@
+.greeting-main {
+  padding: 4em 0em;
+}
+
+.greeting-container {
+  display: flex;
+  margin: 2em;
+  background-color: rgba(153, 153, 153, 0.849);
+  border-radius: 10px;
+  justify-content: space-evenly;
+}
+
+.greetingCard-main {
+  text-align: center;
+  margin: 150px 0px 150px 0px;
+}
+.introText {
+  font-size: 2em;
+  margin: 1em;
+}
+
+.greetingImg-main {
+  margin: 2.5em;
+}
+@media (max-width: 1380px) {
+  .introText {
+    font-size: 1.5em;
+    margin: 2em;
+  }
+}
+
+@media (max-width: 768px) {
+  .greeting-container {
+    display: block;
+  }
+  .introText {
+    font-size: 1.5em;
+    padding: 1em;
+  }
+  .greetingImg-main {
+    margin: 5em;
+  }
+}
+
+@media (max-width: 320px) {
+  .main {
+    width: auto;
+  }
+}
