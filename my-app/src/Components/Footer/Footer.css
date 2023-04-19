@@ -2,4 +2,14 @@ footer {
   display: grid;
   text-align: center;
   position: relative;
+  color: white;
+}
+
+.footer > a {
+  color: white;
+  width: auto;
+}
+
+.footer > span {
+  color: white;
 }

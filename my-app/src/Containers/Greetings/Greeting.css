@@ -1,11 +1,11 @@
 .greeting-main {
-  padding: 4em 0em;
+  padding: 3em 0em;
 }
 
 .greeting-container {
   display: flex;
   margin: 2em;
-  background-color: rgba(153, 153, 153, 0.849);
+  background-color: rgba(29, 28, 28, 0.849);
   border-radius: 10px;
   justify-content: space-evenly;
 }
@@ -17,15 +17,17 @@
 .introText {
   font-size: 2em;
   margin: 1em;
+  color: white;
 }
 
 .greetingImg-main {
   margin: 2.5em;
+  padding: 2em;
 }
 @media (max-width: 1380px) {
   .introText {
     font-size: 1.5em;
-    margin: 2em;
+    margin: 0em 0em 0em 1em;
   }
 }
 
@@ -35,15 +37,24 @@
   }
   .introText {
     font-size: 1.5em;
-    padding: 1em;
+    padding: 3em 0em 0em 0em;
   }
   .greetingImg-main {
     margin: 5em;
+    padding: 0em 0em 2em 0em;
   }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+
+  .introText {
+    font-size: 1em;
+  }
+
+  .greetingImg-main {
+    display: none;
   }
 }

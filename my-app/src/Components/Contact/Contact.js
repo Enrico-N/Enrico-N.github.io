@@ -5,11 +5,11 @@ import { contactInfo } from "../../Portfolio";
 export default function Contact() {
   return (
     <div className="contact" id="contact">
-      <div className="transbox">
+      <div className="transBox">
         <h2>Contact</h2>
 
         <a
-          className="contact-detail-email"
+          className="contactDetailEmail"
           href={"mailto:" + contactInfo.email_address}
         >
           Email Me!

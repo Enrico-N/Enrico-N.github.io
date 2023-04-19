@@ -6,10 +6,10 @@ import { skillsSection } from "../../Portfolio";
 export default function About() {
   return (
     <div className="about" id="about">
-      <div className="transbox2">
+      <div className="transBox">
         <h2>Tech Stack</h2>
         <div className="container">
-          <ul id="dev_icons">
+          <ul className="devIcons">
             {skillsSection.softwareSkills.map((skills, i) => {
               return (
                 <li

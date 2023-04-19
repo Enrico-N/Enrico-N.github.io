@@ -6,6 +6,7 @@
   height: auto;
   width: 50%;
 } */
+
 .self {
   border-radius: 10px;
   height: auto;
@@ -13,15 +14,22 @@
 }
 
 @media (max-width: 1380px) {
+  .self {
+    height: auto;
+    width: 100%;
+  }
 }
 @media (max-width: 768px) {
   .self {
-    height: 10%;
+    height: auto;
+    width: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .main {
     width: auto;
+  }
+  .self {
   }
 }

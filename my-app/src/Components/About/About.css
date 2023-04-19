@@ -1,16 +1,19 @@
-.dev-icons {
-  padding-left: 0;
-  list-style: none;
-  font-size: 3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  text-align: center;
+.devIcons {
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .software-skill-inline {
   display: inline-block;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  padding: 0.2em;
+  font-size: 4em;
+}
+
+.software-skill-inline > p {
+  /* color: $subTitle; */
+  display: grid;
+  font-size: min(0.2em, 1em);
+  text-align: center;
 }
 
 /* .software-skill-inline > i {
@@ -20,22 +23,13 @@
 .software-skill-inline > i:hover {
   color: $skillsColor;
 } */
-.software-skill-inline > p {
-  /* color: $subTitle; */
-  font-size: min(1vw, 10px);
-}
+
 /* .software-skill-inline > i:hover ~ p {
   color: $skillsColor;
 } */
 
-div.transbox {
-  background-color: rgba(49, 49, 49, 0.8);
-  padding: 5% 5%;
-  border-radius: 10px;
-}
-
-div.transbox2 {
-  background: rgba(49, 49, 49, 0.8);
+div.transBox {
+  background-color: rgba(29, 28, 28, 0.849);
   padding: 2% 2%;
   margin: 0% 2%;
   border-radius: 10px;
@@ -43,8 +37,13 @@ div.transbox2 {
 }
 
 @media screen and (width: 768px) {
-  .dev-icons {
+  .devIcons {
     display: block;
+  }
+
+  .software-skill-inline > p {
+    padding: 0.2em;
+    font-size: 1vw;
   }
   /* #tech_stack {
     width: 100px;
