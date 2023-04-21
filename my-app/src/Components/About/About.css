@@ -31,9 +31,9 @@
 div.transBox {
   background-color: rgba(29, 28, 28, 0.849);
   padding: 2% 2%;
-  margin: 0% 2%;
   border-radius: 10px;
   color: white;
+  margin: 0em 2em 2em 2em;
 }
 
 @media screen and (width: 768px) {

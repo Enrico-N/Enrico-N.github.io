@@ -5,6 +5,7 @@ import Projects from "../Components/Projects/Projects";
 import Contact from "../Components/Contact/Contact";
 import Footer from "../Components/Footer/Footer";
 import Greeting from "./Greetings/Greeting";
+import "./Main.css";
 
 export default function Main() {
   const [photoData, setPhotoData] = useState(null);

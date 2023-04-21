@@ -15,52 +15,56 @@ export default function Navbar() {
 
   return (
     <div className="navbar">
-      <a href={socialMediaLinks.portfolio}>
-        <FontAwesomeIcon
-          icon="fas fa-house"
-          size="2x"
-          alt="logo"
-          className="navbar-home"
-        />
-      </a>
-
-      <nav className={click ? "navbar-menu.active" : "navbar-menu"}>
-        <ul>
-          <li>
-            <a href="#about" className="nav-links" onClick={closeMenu}>
-              {" "}
-              About{" "}
-            </a>
-          </li>
-          <li>
-            <a href="#projects" className="nav-links" onClick={closeMenu}>
-              {" "}
-              Projects{" "}
-            </a>
-          </li>
-          <li>
-            <a href="#contact" className="nav-links" onClick={closeMenu}>
-              {" "}
-              Contact{" "}
-            </a>
-          </li>
-        </ul>
-      </nav>
-
-      <div className="toggle-button" onClick={handleClick}>
-        {click ? (
+      <div className="navbar-header">
+        <a href={socialMediaLinks.portfolio}>
           <FontAwesomeIcon
-            icon="fas fa-x"
+            icon="fas fa-house"
             size="2x"
-            style={{ color: "white" }}
+            alt="logo"
+            className="navbar-home"
           />
-        ) : (
-          <FontAwesomeIcon
-            icon="fas fa-bars"
-            size="2x"
-            style={{ color: "white" }}
-          />
-        )}
+        </a>
+
+        <div className="toggle-button" onClick={handleClick}>
+          {click ? (
+            <FontAwesomeIcon
+              icon="fas fa-x"
+              size="2x"
+              style={{ color: "white" }}
+            />
+          ) : (
+            <FontAwesomeIcon
+              icon="fas fa-bars"
+              size="2x"
+              style={{ color: "white" }}
+            />
+          )}
+        </div>
+      </div>
+
+      <div className="navbarContainer">
+        <nav className={click ? "navbar-menu.active" : "navbar-menu"}>
+          <ul>
+            <li>
+              <a href="#about" className="nav-links" onClick={closeMenu}>
+                {" "}
+                About{" "}
+              </a>
+            </li>
+            <li>
+              <a href="#projects" className="nav-links" onClick={closeMenu}>
+                {" "}
+                Projects{" "}
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="nav-links" onClick={closeMenu}>
+                {" "}
+                Contact{" "}
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
   );
